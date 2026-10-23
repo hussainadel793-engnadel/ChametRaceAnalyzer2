@@ -1,4 +1,3 @@
-
 package com.chametrace.analyzer;
 
 import android.app.Activity;
@@ -11,10 +10,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         TextView text = new TextView(this);
-        text.setText("Chamet Race Analyzer is running");
+        text.setText("TEST OK - التطبيق يعمل");
         text.setTextSize(24);
-        text.setPadding(30, 60, 30, 60);
-
         setContentView(text);
     }
 }
